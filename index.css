@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Preahvihear&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Preahvihear", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nav-bar {
+  background-color: #04152d;
+  width: 100vw;
+  height: 11vh;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nav-bar h1 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.nav-bar i {
+  font-size: 25px;
+}
+.bg-container {
+  background-color: #04152d;
+  width: 100vw;
+  min-height: 90vh;
+  padding: 20px;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height:80vh;
+}
+.nav-links{
+    display: none;
+    position: absolute; /* so it floats over other content */
+    top: 70px; /* adjust based on nav-bar height */
+    right: 15px; /* align near hamburger */
+    color: white;
+    backdrop-filter: blur(3px);
+    background-color: rgba(49, 49, 104, 0.358); /* semi-transparent */
+    border-radius: 12px;
+    padding: 15px 25px;
+    z-index: 20; /* ensures it's above profile image */
+}
+.show-nav{
+  display: block;
+}
+.nav-links .nav-ul {
+    margin: 0;
+    padding: 0;
+}
+.nav-links .nav-ul .nav-li{
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-li .nav-anchor{
+  text-decoration: none;
+  color: white;
+}
+.profile-container {
+  width: 260px;
+  height: 300px;
+  background-image: url("./Gradient.png");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.profile-image {
+  width: 150px;
+  height: 200px;
+  margin-left: 15px;
+}
+.profile-discription {
+    text-align: center;
+  color: white;
+}
+.profile-para1 {
+  font-size: 13px;
+  text-decoration: underline;
+  letter-spacing: 2%;
+}
+.profile-heading {
+  font-size: 25px;
+  line-height: 137%;
+}
+.cover{
+    color: #7127BA;
+}
+.profile-para2 {
+  font-size: 13px;
+  letter-spacing: 2%;
+  margin-top: 10px;
+}
+.contact-btn{
+    color: white;
+    background-color: #576CBC;
+    padding: 8px 18px;
+    border-width: 0px;
+    border-radius: 25px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* about container */
+.about-container{
+  margin-top: 50px;
+}
+.section-heading{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.about-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 15px 0px;
+  padding: 5px;
+}
+.about-card:hover{
+  background: linear-gradient(to right ,#A5D7E899, #FFFFFF00);
+  backdrop-filter: blur(5px);
+}
+.about-images{
+  margin-right: 15px;
+}
+.about-para{
+  font-size: 16px;
+  color: white;
+  line-height: 140%;
+}
+.about-para-span{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
+/* skills container */
+.skills-container{
+  margin-top: 50px;
+}
+.skill-card p{
+  text-align: center;
+  color: white;
+
+}
+.skills-flex-wrap{
+  width: 90vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.skills-img-container{
+  background-color: #19376D;
+  border-radius: 100%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-image{
+  width: 50px;
+  height: 50px;
+}
