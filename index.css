@@ -34,9 +34,9 @@
 .home-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  min-height:80vh;
+  min-height:70vh;
 }
 .nav-links{
     display: none;
@@ -64,6 +64,9 @@
 .nav-li .nav-anchor{
   text-decoration: none;
   color: white;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
 }
 .profile-container {
   width: 260px;
@@ -155,12 +158,12 @@
 .skill-card p{
   text-align: center;
   color: white;
-
+  margin-bottom: 10px;
 }
 .skills-flex-wrap{
   width: 90vw;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .skills-img-container{
@@ -177,4 +180,75 @@
 .skill-image{
   width: 50px;
   height: 50px;
+}
+
+
+
+
+
+
+
+/* project section */
+.projects-container{
+  margin-top: 50px;
+}
+.projects-card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-card{
+  max-width: 350px;
+  background: linear-gradient(to top,#132A53,#576CBC);
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+.project-image-container{
+  width: 100%;
+  
+  
+}
+.project-image{
+  width: 100%;
+  border-radius: 20px;
+}
+.project-heading{
+  color: white;
+  font-size: 26px;
+  text-align: left;
+  font-weight: 500;
+  margin-top: 5px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.project-para{
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+.tech-stack{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tech-stack-image{
+  width: 45px;
+  height: 40px;
+  margin: 10px 15px 10px 0px;
+}
+.demo-source-container{
+  display: flex;
+  margin-top: 10px;
+}
+.demo{
+  background-color: #576CBC;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.demo-source-link{
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
 }
