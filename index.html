@@ -17,6 +17,22 @@
     <div class="nav-bar">
       <h1>Portfolio</h1>
       <i class="fa-solid fa-bars menu-icon"></i>
+      <div class="tablet-view-nav-ul">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a class="nav-anchor" href="#about">About</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-anchor" href="#skills">Skills</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-anchor" href="#projects">Projects</a>
+          </li>
+          <li class="nav-li">
+            <a class="nav-anchor" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="bg-container">
       <div class="home-container">
@@ -36,24 +52,29 @@
             </li>
           </ul>
         </div>
-        <div class="profile-container">
-          <img class="profile-image" src="./profile2.png" alt="profile" />
+
+        <div class="profile-and-discription-container">
+          <div class="profile-container">
+            <img class="profile-image" src="./profile2.png" alt="profile" />
+          </div>
+          <div class="profile-discription">
+            <h1>Hi, I'm <span class="cover">Praveen</span></h1>
+            <p class="profile-para1">A Designer who</p>
+            <h1 class="profile-heading">
+              Judges a book <br />by its <span class="cover">cover</span>...
+            </h1>
+            <p class="profile-para2">
+              Because if the cover does not impress you what else can?
+            </p>
+              <button class="contact-btn" type="button">Contact Me</button>
+            
+          </div>
         </div>
-        <div class="profile-discription">
-          <h1>Hi, i'm <span class="cover">Praveen</span></h1>
-          <p class="profile-para1">A Designer who</p>
-          <h1 class="profile-heading">
-            Judges a book <br />by its <span class="cover">cover</span>...
-          </h1>
-          <p class="profile-para2">
-            Because if the cover does not impress you what else can?
-          </p>
-        </div>
-        <button class="contact-btn" type="button">Contact Me</button>
       </div>
 
       <div class="about-container" id="about">
         <h1 class="section-heading">About</h1>
+
         <div class="about-card">
           <img class="about-images" src="./frontend.png" alt="frontend" />
           <p class="about-para">
@@ -154,21 +175,21 @@
         </div>
       </div>
 
-
-
       <div class="projects-container" id="projects">
         <h1 class="section-heading">Projects</h1>
         <div class="projects-card-container">
-
-
           <div class="project-card">
             <div class="project-image-container">
-              <img class="project-image" src="./nxtrendz.png" alt="nxt trendz" />
+              <img
+                class="project-image"
+                src="./nxtrendz.png"
+                alt="nxt trendz"
+              />
             </div>
             <h1 class="project-heading">NxtTrendz-Ecommerce</h1>
             <p class="project-para">
               Created a modern e-commerce experience with a design inspired by
-              Amazon and Flipkart.<br>Tech stack:
+              Amazon and Flipkart.<br />Tech stack:
             </p>
             <div class="tech-stack">
               <img class="tech-stack-image" src="./react.png" alt="react" />
@@ -199,8 +220,9 @@
             </div>
             <h1 class="project-heading">Jobby App</h1>
             <p class="project-para">
-              Users can login and see a list of jobs with search by Job title, filters based on Salary range and Employment type.
-              <br>Tech stack:
+              Users can login and see a list of jobs with search by Job title,
+              filters based on Salary range and Employment type.
+              <br />Tech stack:
             </p>
             <div class="tech-stack">
               <img class="tech-stack-image" src="./react.png" alt="react" />
@@ -225,17 +247,22 @@
             </div>
           </div>
 
-
           <div class="project-card">
             <div class="project-image-container">
               <img class="project-image" src="./imdb.png" alt="nxt trendz" />
             </div>
             <h1 class="project-heading">IMDb (Movie & Series Info Web App)</h1>
             <p class="project-para">
-              Integrated multiple APIs: OMDb (movie details), YouTube (trailers), and the Streaming Availability API to provide realtime information<br>Tech stack:
+              Integrated multiple APIs: OMDb (movie details), YouTube
+              (trailers), and the Streaming Availability API to provide realtime
+              information<br />Tech stack:
             </p>
             <div class="tech-stack">
-              <img class="tech-stack-image" src="./javascript.png" alt="react" />
+              <img
+                class="tech-stack-image"
+                src="./javascript.png"
+                alt="react"
+              />
               <img class="tech-stack-image" src="./css.png" alt="css" />
               <img class="tech-stack-image" src="./html.png" alt="html" />
             </div>
@@ -249,7 +276,45 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="contact-container" id="contact">
+      <div class="contact-heading-container">
+        <h1>Contact</h1>
+        <p>Feel free to reach out!</p>
+      </div>
+      <div class="contact-details-container">
+        <div class="contact">
+          <i class="fa-solid fa-envelope contact-icon"></i>
+          <a
+            class="contact-text"
+            href="mailto:praveen636317@gmail.com"
+            target="_blank"
+          >
+            praveen636317@gmail.com
+          </a>
+        </div>
+        <div class="contact">
+          <i class="fa-brands fa-linkedin contact-icon"></i>
+          <a
+            class="contact-text"
+            href="https://www.linkedin.com/in/praveen-s-93856127a/"
+            target="_blank"
+          >
+            linkedin.com/in/praveen/
+          </a>
+        </div>
+        <div class="contact">
+          <i class="fa-brands fa-github contact-icon"></i>
+          <a
+            class="contact-text"
+            href="https://github.com/praveen-047"
+            target="_blank"
+          >
+            github.com/praveen-047
+          </a>
         </div>
       </div>
     </div>
